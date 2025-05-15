@@ -19,12 +19,12 @@ const Header = () => {
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-8">
             <li>
-              <a
-                href="#Home"
+              <Link
+                to="/" // Change this to the actual path you want to navigate to
                 className="text-white hover:text-gray-900 font-medium transition text-lg"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <Link
